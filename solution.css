@@ -1,0 +1,42 @@
+header{
+    text-align: center;
+}
+
+main{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    padding: 2em;
+    margin: 2em;
+    border: 4px dashed red;
+}
+
+aside.column{
+    flex-basis: 33%;
+}
+
+.right-column{
+    flex-basis: 67%;
+    padding: 2em;
+    margin: 2em;
+    border: 4px dashed red; 
+}
+
+img{
+    width: 200px;
+    float: right;
+    margin-left: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.fixed-bottom{
+    position: fixed;
+    bottom: 5px;
+}
